@@ -1,0 +1,298 @@
+.hero-image{
+    height: 90%;
+    background-image: url("./Picture/Homepage/icb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.9;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: pink;
+    height: auto;
+    font-family: 'Charmonman', cursive;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.hero-text a:hover{
+    background: hotpink;
+}
+
+.hero-header{
+        background-color:white;
+        opacity: 0.9;
+}
+
+.hero-header h1{
+    opacity: 1.0;
+    
+}
+
+.about{
+    height: 100%;
+    background-image: url("./Picture/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.about-text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-family: 'Mali', cursive;
+    font-size: 30px;
+    color: lightpink;
+
+}
+
+.about-story p{
+    text-align: center;
+    position: absolute;
+    background-color: skyblue;
+    width: 70%;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 300px;
+    border: dashed hotpink;
+    padding: 5px;
+
+}
+
+.h-btn{
+    display: inline-block;
+    font-family: 'Mali', cursive;
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border: 10px solid skyblue;
+    border-radius: 25px;
+    text-align:center;
+    outline: none;
+    text-decoration: none;
+    background:#fff;
+    color:lightpink;
+    font-size: 2.0rem;
+
+
+}
+
+
+.menu-hero{
+    height: 100%;
+    opacity: 0.8;
+    background-image: url("./Picture/Menu/menu.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: scroll;
+
+}
+
+.menu-nav{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    background: skyblue;
+    list-style: none;
+    position:absolute;
+    display: none;
+    font-family: 'Mali', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 100vh;
+}
+
+
+.menu-nav a{
+    text-decoration: none;
+
+}
+
+.menu-nav a:hover{
+    border: 1px solid #333;
+    border-bottom: 2px solid yellow ;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background: pink;
+    color: red;
+}
+
+
+.menu-btn img{
+    color: black;   
+    width: 75px;
+    height: 75px;
+    border: 5px ;
+    border-radius: 50px;
+}
+
+.menu-btn img:hover{
+    transform: scale(1.5);
+    border: 0.5px solid skyblue;
+    background: hotpink;
+
+}
+
+
+.nav-item{
+    margin-top: 30px;
+
+}
+
+
+.menu-btn{
+    position: absolute;
+    z-index: 4;
+    left: 35px;
+    top: 35px;
+
+}
+
+.btn-line{
+    width:28px;
+    height:3px;
+    margin: 0 0 5px 0;
+    background: #333333;
+}
+
+.social{
+    text-align: center;
+}
+
+.social a{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.social i:hover{
+    color:#fff;
+    border-bottom: 2px solid white;
+
+}
+
+.fa-facebook {
+    color:blue;
+}
+
+.fa-twitter{
+    color:lightblue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:purple;
+}
+
+.fa-arrow-right{
+    margin-top: 200px;
+    margin-left: 1100px;
+    color: white;
+}
+.fa-arrow-left{
+    color: white;
+}
+
+.show{
+    display: block;
+    width: 200px;
+    z-index: 3;
+}
+
+.flavors{
+    text-align: center;
+    background-color:#fff;
+    opacity: 0.8;
+    width:50%;
+    height: 50%;
+    border: 5px solid purple;
+    margin-left: 300px;
+    font-family: 'Charmonman', cursive;
+    font-size: 1.2rem;
+    color: blue;
+}
+.flavors td:hover{
+
+    border: 5px solid #333;
+    border-bottom: 5px solid red ;
+    border-radius: 25px;
+    padding: 10px 10px;
+    background: hotpink;
+    color: blue;
+}
+
+
+
+
+.location-image{    
+    height: 100%;
+    background-image: url("./Picture/location.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    opacity: 0.8;
+
+}
+table{ 
+    margin-left: 300px;
+}
+
+
+.Chinatown{
+    text-align: center;
+    color:pink;
+    font-size: 1.3rem;
+    font-family: 'Mali', cursive;
+    background-image:url("./Picture/chinatown.jpg");
+    background-position: center;    
+}
+
+.flushing{
+    text-align: center;
+     background-repeat: no-repeat;
+    color:hotpink;
+    font-size: 1.3rem;
+    font-family: 'Mali', cursive;
+    background-image:url("./Picture/flushing.jpg");
+    background-position: center;    
+}
+
+.gmap th{
+    font-family: 'Mali', cursive;
+    color:skyblue;
+}
+
+hr{
+    border: 3px dashed hotpink;
+
+}
+img{
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+    opacity: 0.9;
+    border-radius: 25px;
+
+}
+
+th{
+    color:pink;
+    font-family:'Sofia';font-size: 30px;
+}
+
+body, html { height: 100%; background: black;}
+
+h2,h3,h4,h5,h6, {font-family:'Sofia';font-size: 50px;}
